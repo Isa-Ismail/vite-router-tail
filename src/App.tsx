@@ -8,8 +8,8 @@ const App = () => {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} >
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} >
           <Route path=":id" element={<About />} />
           <Route path="me" element={<About />} />
         </Route>
