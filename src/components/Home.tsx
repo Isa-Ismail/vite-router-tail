@@ -5,7 +5,7 @@ const Home = () => {
     <div className="pt-20">
       Home
       <Link to='/about' >
-        wd
+        Home link to
       </Link>
     </div>
   )
